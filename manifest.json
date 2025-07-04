@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://www.notion.so/*", "https://*.notion.site/*" ]
+   } ],
+   "description": "Notion in RTL",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnCZ4GJmDde7y8a7+POtuX8rh89pgbrYhm5aoh4LDzIRPqET95Beuvj/g7/4p+D2O8opCzrTVbIlHE4Td5W+iG+RwvCD+H8qcUIw4lWRZQyY5THItcMiMHdD6xT1BxVFjDuQAATxLGW/nCTUUDG70Z+/PiMwScRB+lLYaaiRTtJQZ6z7kuSgSefS3iMdIYjft1HTSW6sbI9kXtCT9zvwA0Q8L42gagg4TOAObI/aUEIFc6M3J7gMYDqdhUIf+TgjOgukgAq4pIkwPz1f99v7mcaZkRWN6GMB9834SFCcMIJd2ppuZfHDbToMB80U2qEltKgqFbHdxCQYyDQD8SIh82wIDAQAB",
+   "manifest_version": 3,
+   "name": "Notion RTL",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}
